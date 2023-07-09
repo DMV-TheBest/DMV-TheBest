@@ -1,14 +1,7 @@
-const objwct = {
- "Vlad": "Vlad",
-    "stie": "knows",
-    "engleza": "English"
-}
-prop = "Vlad stie engleza"
-const cuv=prop.split(" ")
-let rezultat ="";
-
-for(i=0;i<3;i++)
+function tabla_adunarii (a,b)
 {
-rezultat += " " +  objwct[cuv[i]]
+    return a+b
 }
-console.log(rezultat)
+
+tabla_adunarii(2,6)
+console.log(tabla_adunarii(2,6))
